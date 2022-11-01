@@ -7,7 +7,7 @@ import minimist from "minimist";
 const args = minimist(process.argv.slice(2))
 let sides = args.sides ? args.sides: 6;
 let dice = args.dice ? args.dice: 2;
-let rolls = args.rolls ? args.rolls: 6;
+let rolls = args.rolls ? args.rolls: 1;
 
 
 let results = roll(sides, dice, rolls);
