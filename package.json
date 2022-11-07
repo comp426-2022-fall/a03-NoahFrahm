@@ -4,7 +4,7 @@
   "description": "dice roller",
   "main": "./lib/roll.js",
   "scripts": {
-    "test": "roll-dice --sides=10 --dice=2 --rolls=3"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
